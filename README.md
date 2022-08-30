@@ -10,8 +10,7 @@ create_all_urls.py then constructs all urls to scrape from and stores them in th
 <img width="660" alt="image" src="https://user-images.githubusercontent.com/71666566/187562802-d742b0d7-4864-4426-b0b3-ae11629b715f.png">
 
 Finally word_cloud_label_scraper.py scrapes the holder addresses and associated labels from each of the constructed links.
-
-
+<img width="718" alt="image" src="https://user-images.githubusercontent.com/71666566/187563280-fa152faf-b396-4d91-8f23-0eae72c78675.png">
 
 
 ## OKlink.com
