@@ -24,6 +24,6 @@ However, I noticed the website would load data by using an internal API which re
 <img width="697" alt="image" src="https://user-images.githubusercontent.com/71666566/187565519-8d2e0fb0-fde5-4240-9cc9-fa8cc49c6db4.png">
 
 The bot uses selenium to click a certain button on the webpage that queries this API-
-<img width="728" alt="image" src="https://user-images.githubusercontent.com/71666566/187565650-ad74c298-1c03-48eb-a6f9-0fe236dba162.png">
+<img width="732" alt="image" src="https://user-images.githubusercontent.com/71666566/187565740-efc64f2d-5cf3-45f6-9680-5e2fa2217d5b.png">
 
 then reads the latest request from this page and stores this API key to then query the internal API directly. When this key expires the bot repeats the process of clicking the webpage to create a request and then read the associated API key, this is required as the API has a limit of 150 rows and around 36 million rows need to be read.
